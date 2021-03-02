@@ -33,6 +33,7 @@ namespace WebAPIDemo1.Controllers
             }
         }
 
+        //GET Employee by id
         [HttpGet]
         public HttpResponseMessage /*Get(int id)*/ LoadEmployeeById(int id)
         {
